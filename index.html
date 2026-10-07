@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sakib Raihan — AI / ML Engineer</title>
+  <meta name="description" content="Sakib Raihan is an AI/ML engineer building LLM agents, RAG systems and computer-vision models. AI Engineer Trainee at Chowa Giken Corporation and CSE student at BRAC University.">
+  <meta name="author" content="Sakib Raihan">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sakib Raihan — AI / ML Engineer">
+  <meta property="og:description" content="LLM agents, RAG systems and computer-vision models that are grounded, measured and production-ready.">
+  <meta property="og:url" content="https://sakib9797.github.io/">
+  <meta name="twitter:card" content="summary">
+
+  <meta name="theme-color" content="#f5f5f0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c1110" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Mark JS as available and set the theme before first paint (no flash) -->
+  <script>
+    (function () {
+      var d = document.documentElement, t;
+      d.classList.add('js');
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t !== 'light' && t !== 'dark') {
+        t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      d.setAttribute('data-theme', t);
+      // Safety net: if main.js never runs, show everything instead of waiting for reveal animations
+      setTimeout(function () { if (!window.portfolioReady) d.classList.add('js-failed'); }, 2500);
+    })();
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <!-- Ambient background: slow-drifting soft gradients + film grain -->
+  <div class="backdrop" aria-hidden="true">
+    <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+    <span class="grain"></span>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <!-- Compact bar shown on phones once the intro scrolls away -->
+  <div class="mobilebar" inert>
+    <a class="mb-name" href="#top">Sakib Raihan</a>
+    <span class="mb-section" aria-hidden="true">About</span>
+    <button class="icon-btn cmdk-open" type="button" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg>
+    </button>
+  </div>
+
+  <div class="wrap">
+    <!-- ============ Sidebar / intro ============ -->
+    <header class="sidebar">
+      <div>
+        <h1 class="name" aria-label="Sakib Raihan"><a href="#top">Sakib Raihan</a></h1>
+        <p class="role enter" style="--i:1">AI / ML Engineer</p>
+        <p class="tagline enter" style="--i:2">
+          <span class="sr-only">I build LLM agents, RAG pipelines, vision models and full-stack AI apps that are grounded, measured and ready for production.</span>
+          <span aria-hidden="true">I build <span class="rotator"><span class="is-active">LLM agents</span><span>RAG pipelines</span><span>vision models</span><span>full-stack AI apps</span></span><br>that are grounded, measured and ready for production.</span>
+        </p>
+        <p class="status enter" style="--i:3"><span class="dot" aria-hidden="true"></span>Currently AI Engineer Trainee at Chowa Giken</p>
+
+        <nav class="nav enter" style="--i:4" aria-label="Sections">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="sidebar-foot enter" style="--i:5">
+        <ul class="socials" aria-label="Links">
+          <li>
+            <a class="icon-btn" href="https://github.com/Sakib9797" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+              <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="icon-btn" href="https://www.linkedin.com/in/sakibraihan91/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="icon-btn" href="mailto:sakibraihan9191@gmail.com" aria-label="Email" title="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            </a>
+          </li>
+          <li>
+            <button class="icon-btn theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle theme">
+              <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+              <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+            </button>
+          </li>
+        </ul>
+        <div class="foot-actions">
+          <a class="btn" href="assets/Sakib-Raihan-Resume.pdf" target="_blank" rel="noopener" data-magnetic>
+            Résumé
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+          <button class="kbd-btn cmdk-open" type="button" title="Open command menu" aria-label="Open command menu">
+            <kbd class="kbd-mod">Ctrl</kbd><kbd>K</kbd>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============ Main content ============ -->
+    <main id="content">
+
+      <!-- About -->
+      <section id="about" aria-labelledby="about-h">
+        <h2 id="about-h" class="section-label reveal">About</h2>
+        <p class="lede reveal">I'm an AI/ML engineer and Computer Science student at <a href="https://www.bracu.ac.bd/" target="_blank" rel="noopener">BRAC University</a> in Dhaka. Most of my work is with <strong>LLMs, RAG, transformers and vision models</strong>, and I care most about systems you can measure.</p>
+        <p class="reveal">One example is a retrieval agent that has to pass a zero-hallucination test suite before it builds. Another is a detector that keeps working in fog and rain. I'm currently an <strong>AI Engineer Trainee at Chowa Giken Corporation</strong>, working with real-world 3D point-cloud data for deep learning. Earlier in 2026 I won <strong>1st place in the GCI World Hackathon</strong> and was named one of 17 Outstanding Students out of 25,000+ participants. That led to a research study tour at the University of Tokyo.</p>
+        <p class="reveal">Beyond the models themselves, I build full-stack apps with FastAPI, Flask and React, and ship them with Docker, AWS and GitHub Actions.</p>
+
+        <!-- Interactive pipeline: hover or tap a step -->
+        <div class="flow-card reveal">
+          <div class="flow-head">
+            <p class="flow-title">How I build AI systems</p>
+            <span class="flow-hint">Hover or tap a step</span>
+          </div>
+          <ol class="flow">
+            <li class="is-active">
+              <button class="flow-node" type="button" data-desc="Scrape, parse and clean the sources, including legacy-encoded Bengali PDFs that standard extractors can't read.">
+                <span class="flow-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg></span>
+                <span class="flow-label">Ingest</span>
+              </button>
+            </li>
+            <li>
+              <button class="flow-node" type="button" data-desc="Split documents into chunks and encode them with multilingual sentence-transformer embeddings.">
+                <span class="flow-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5z"/><path d="m3 13 9 5 9-5"/><path d="m3 17.5 9 5 9-5" opacity=".5"/></svg></span>
+                <span class="flow-label">Embed</span>
+              </button>
+            </li>
+            <li>
+              <button class="flow-node" type="button" data-desc="Use FAISS vector search to pull the top-k most relevant passages for each question.">
+                <span class="flow-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.2-4.2"/></svg></span>
+                <span class="flow-label">Retrieve</span>
+              </button>
+            </li>
+            <li>
+              <button class="flow-node" type="button" data-desc="A constrained LLM layer drafts the answer from the retrieved context only, in the user's language.">
+                <span class="flow-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l1.8 4.7 4.7 1.8-4.7 1.8L12 16l-1.8-4.7-4.7-1.8 4.7-1.8z"/><path d="M19 15l.8 2.2 2.2.8-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></span>
+                <span class="flow-label">Generate</span>
+              </button>
+            </li>
+            <li>
+              <button class="flow-node" type="button" data-desc="Check every number against the source records. Any grounding or safety violation fails the build.">
+                <span class="flow-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.5-7 10-4-1.5-7-5.5-7-10V6z"/><path d="m9 12 2 2 4-4"/></svg></span>
+                <span class="flow-label">Validate</span>
+              </button>
+            </li>
+          </ol>
+          <p class="flow-desc" aria-hidden="true">Scrape, parse and clean the sources, including legacy-encoded Bengali PDFs that standard extractors can't read.</p>
+        </div>
+
+        <ul class="stats reveal" aria-label="Highlights">
+          <li><strong>Top <span data-count-to="17">17</span></strong><span>of 25,000+ worldwide · GCI World 2026</span></li>
+          <li><strong>1st</strong><span>GCI World 2026 Hackathon</span></li>
+          <li><strong><span data-count-to="57">57</span>%</strong><span>balanced mAP across clear, fog &amp; rain</span></li>
+          <li><strong><span data-count-from="100" data-count-to="0">0</span>%</strong><span>hallucination on a 61-case eval</span></li>
+        </ul>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" aria-labelledby="experience-h">
+        <h2 id="experience-h" class="section-label reveal">Experience</h2>
+        <ol class="rail">
+          <li class="entry reveal">
+            <p class="entry-date">Jun 2026 — Present</p>
+            <h3 class="entry-title">AI Engineer Trainee <span class="at">· Chowa Giken Corporation</span></h3>
+            <p>Working with real-world 3D point-cloud datasets, covering preprocessing, annotation, feature extraction and optimization for deep learning and computer vision. The role includes industry-oriented, on-the-job training in ML workflows and Japanese engineering standards.</p>
+            <ul class="tags">
+              <li>PyTorch</li><li>CloudCompare</li><li>3D Point Clouds</li><li>Computer Vision</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" aria-labelledby="projects-h">
+        <h2 id="projects-h" class="section-label reveal">Projects</h2>
+
+        <div class="filters reveal" role="group" aria-label="Filter projects">
+          <span class="chip-indicator" aria-hidden="true"></span>
+          <button class="chip" type="button" data-filter="all" aria-pressed="true">All <span class="count"></span></button>
+          <button class="chip" type="button" data-filter="llm" aria-pressed="false">LLM &amp; Agents <span class="count"></span></button>
+          <button class="chip" type="button" data-filter="ml" aria-pressed="false">ML &amp; Vision <span class="count"></span></button>
+          <button class="chip" type="button" data-filter="web" aria-pressed="false">Full-stack <span class="count"></span></button>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal" data-cat="llm">
+            <div class="card-top">
+              <h3 class="card-title">Government Service Navigation Agent</h3>
+              <a class="card-link" href="https://github.com/Sakib9797/Government-Service-Navigation-Agent" target="_blank" rel="noopener" aria-label="Government Service Navigation Agent code on GitHub">Code<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            </div>
+            <p class="metric"><strong>0% hallucination</strong> across a 61-case automated eval</p>
+            <p class="card-desc">A bilingual (Bangla/English) RAG agent that answers questions about Bangladeshi government services: fees, required documents and procedures.</p>
+            <ul class="tags"><li>LangGraph</li><li>FAISS</li><li>RAG</li><li>LLM</li><li>Python</li></ul>
+            <button class="more-btn" type="button" aria-expanded="false" aria-controls="more-gov">How it works<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            <div class="more" id="more-gov"><div>
+              <ul class="points">
+                <li>Five-stage LangGraph pipeline with FAISS retrieval, multilingual sentence-transformer embeddings, a constrained LLM layer and automatic language detection.</li>
+                <li>Reverse-engineered two Bengali PDF text decoders, one by recovering a corrupted ToUnicode CMap and one by mapping the legacy Bijoy/SutonnyMJ encoding, so government gazettes became machine-readable.</li>
+                <li>Every number the LLM generates is checked against source records, and facts are rendered from a validated JSON Schema. Grounding and safety gates fail the build on any violation.</li>
+              </ul>
+            </div></div>
+          </article>
+
+          <article class="card reveal" data-cat="ml">
+            <div class="card-top">
+              <h3 class="card-title">Multi-Target Domain Adaptation for Semi-Supervised Object Detection</h3>
+              <a class="card-link" href="https://github.com/Sakib9797/MTDA-SSOD-CL" target="_blank" rel="noopener" aria-label="Multi-target domain adaptation code on GitHub">Code<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            </div>
+            <p class="metric"><strong>57% balanced mAP</strong> · rainy domain 30% → 57%</p>
+            <p class="card-desc">A YOLOv11s detector that adapts across normal, foggy and rainy conditions using an adversarial domain classifier and MMD feature alignment.</p>
+            <ul class="tags"><li>PyTorch</li><li>YOLOv11</li><li>Domain Adaptation</li><li>Semi-Supervised</li></ul>
+            <button class="more-btn" type="button" aria-expanded="false" aria-controls="more-mtda">How it works<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            <div class="more" id="more-mtda"><div>
+              <ul class="points">
+                <li>A 3-stage dynamic curriculum scheduler gradually increases domain difficulty, which improved rainy-domain detection by 90%.</li>
+                <li>Semi-supervised pseudo-labeling with confidence thresholds stepped down from 0.6 to 0.4 to 0.2 and progressive data inclusion lets the model learn from unlabeled target-domain data.</li>
+              </ul>
+            </div></div>
+          </article>
+
+          <article class="card reveal" data-cat="llm">
+            <div class="card-top">
+              <h3 class="card-title">BRACU Bot</h3>
+              <a class="card-link" href="https://github.com/Sakib9797/BRACU-BOT" target="_blank" rel="noopener" aria-label="BRACU Bot code on GitHub">Code<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            </div>
+            <p class="metric"><strong>RAG chatbot</strong> for BRAC University content</p>
+            <p class="card-desc">An AI assistant that answers questions about BRAC University with context-aware semantic search over the university's own web pages.</p>
+            <ul class="tags"><li>NLP</li><li>RAG</li><li>FAISS</li><li>Hugging Face</li><li>Gradio</li></ul>
+            <button class="more-btn" type="button" aria-expanded="false" aria-controls="more-bracu">How it works<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            <div class="more" id="more-bracu"><div>
+              <ul class="points">
+                <li>NLP pipeline covering document chunking, SentenceTransformer embeddings, FAISS top-k retrieval and answer generation with FLAN-T5.</li>
+                <li>Automated scraping and ingestion with Playwright and BeautifulSoup turns university web pages into a structured knowledge base.</li>
+                <li>Interactive Gradio interface for real-time answers, built on a modular architecture.</li>
+              </ul>
+            </div></div>
+          </article>
+
+          <article class="card reveal" data-cat="web ml">
+            <div class="card-top">
+              <h3 class="card-title">HireSkillz</h3>
+              <a class="card-link" href="https://github.com/Sakib9797/Hire-Skill" target="_blank" rel="noopener" aria-label="HireSkillz code on GitHub">Code<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            </div>
+            <p class="metric"><strong>85% match accuracy</strong> on 100+ postings from 20 tech companies</p>
+            <p class="card-desc">A full-stack career-intelligence platform with 8+ AI-powered modules for job matching, career pivots and learning paths.</p>
+            <ul class="tags"><li>Flask</li><li>React</li><li>PostgreSQL</li><li>scikit-learn</li></ul>
+            <button class="more-btn" type="button" aria-expanded="false" aria-controls="more-hire">How it works<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            <div class="more" id="more-hire"><div>
+              <ul class="points">
+                <li>NLP job matching using TF-IDF vectors and cosine similarity.</li>
+                <li>A career recommender that scores user profiles against 16 career paths and 100+ curated courses.</li>
+                <li>A job aggregation service that scrapes, filters and normalizes listings from 14 sources.</li>
+              </ul>
+            </div></div>
+          </article>
+
+          <article class="card reveal" data-cat="web">
+            <div class="card-top">
+              <h3 class="card-title">Quite Space</h3>
+              <a class="card-link" href="https://github.com/Sakib9797/Quite-Space" target="_blank" rel="noopener" aria-label="Quite Space code on GitHub">Code<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            </div>
+            <p class="metric"><strong>Full-stack</strong> community and reporting platform</p>
+            <p class="card-desc">A group platform with real-time chat and a reporting system that runs ML sentiment analysis on submitted reports.</p>
+            <ul class="tags"><li>Flask</li><li>React</li><li>SQLite</li><li>NLP</li></ul>
+            <button class="more-btn" type="button" aria-expanded="false" aria-controls="more-quite">How it works<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+            <div class="more" id="more-quite"><div>
+              <ul class="points">
+                <li>General and emergency reporting workflows with ML-based sentiment analysis, searchable history and attachments.</li>
+                <li>Private and public groups with invite codes, member roles, announcements and real-time chat with file uploads.</li>
+                <li>Flask REST APIs on top of a structured SQLite data layer for users, groups, messages, reports and notifications.</li>
+              </ul>
+            </div></div>
+          </article>
+        </div>
+
+        <h3 class="sub-label reveal">More projects</h3>
+        <ul class="archive">
+          <li class="reveal" data-cat="llm">
+            <a href="https://github.com/Sakib9797/ShikkhokBOT" target="_blank" rel="noopener">ShikkhokBot</a>
+            <span>A fine-tuned Bangla SSC science tutor trained on genuine Bengali chain-of-thought data generated with local open-source LLMs.</span>
+          </li>
+          <li class="reveal" data-cat="ml">
+            <a href="https://github.com/Sakib9797/NYC-Taxi-Trip-Duration-MLOps" target="_blank" rel="noopener">NYC Taxi MLOps</a>
+            <span>Predicts trip duration at pickup, with no data leakage, using ZenML and MLflow pipelines.</span>
+          </li>
+          <li class="reveal" data-cat="llm ml">
+            <a href="https://github.com/Sakib9797/Speed-Dating-Match-Prediction-Agent-" target="_blank" rel="noopener">Speed Dating Match Agent</a>
+            <span>A LangGraph agent that cleans data, selects features with RFE and trains an XGBoost model on its own.</span>
+          </li>
+          <li class="reveal" data-cat="web">
+            <a href="https://github.com/Sakib9797/Expense-Management-System" target="_blank" rel="noopener">Expense Splitter</a>
+            <span>A full-stack expense-splitting app with a Flask MVC backend and a React and TypeScript frontend.</span>
+          </li>
+          <li class="reveal" data-cat="ml">
+            <a href="https://github.com/Sakib9797/MMA-Analysis" target="_blank" rel="noopener">MMA Analysis</a>
+            <span>Exploratory analysis of UFC fights from 1994 to 2025, focused on how reach advantage relates to winning.</span>
+          </li>
+          <li class="reveal" data-cat="systems">
+            <a href="https://github.com/Sakib9797/VSFS" target="_blank" rel="noopener">VSFS</a>
+            <span>A very simple file system written in C, with write-ahead metadata journaling and crash recovery.</span>
+          </li>
+        </ul>
+        <a class="link-arrow reveal" href="https://github.com/Sakib9797?tab=repositories" target="_blank" rel="noopener">View all repositories on GitHub<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" aria-labelledby="skills-h">
+        <h2 id="skills-h" class="section-label reveal">Skills</h2>
+        <!-- Decorative marquee; the full list is in the table below -->
+        <div class="marquee reveal" aria-hidden="true">
+          <div class="marquee-track">
+            <span>PyTorch</span><span>LangGraph</span><span>FAISS</span><span>Hugging Face</span><span>TensorFlow</span><span>LangChain</span><span>OpenCV</span><span>YOLO</span><span>Unsloth</span><span>FastAPI</span><span>React</span><span>Docker</span><span>AWS</span><span>Kubernetes</span><span>scikit-learn</span><span>Pandas</span>
+            <span>PyTorch</span><span>LangGraph</span><span>FAISS</span><span>Hugging Face</span><span>TensorFlow</span><span>LangChain</span><span>OpenCV</span><span>YOLO</span><span>Unsloth</span><span>FastAPI</span><span>React</span><span>Docker</span><span>AWS</span><span>Kubernetes</span><span>scikit-learn</span><span>Pandas</span>
+          </div>
+        </div>
+        <dl class="skills">
+          <div class="reveal"><dt>AI expertise</dt><dd>LLMs (GPT, LLaMA) · Transformers · Vision models (CNNs, ViT) · RAG · Vector search · Agentic systems · Prompt engineering · Fine-tuning &amp; custom training</dd></div>
+          <div class="reveal"><dt>ML libraries</dt><dd>PyTorch · TensorFlow · Keras · scikit-learn · OpenCV · LangChain · LangGraph · Roboflow · Unsloth</dd></div>
+          <div class="reveal"><dt>Languages</dt><dd>Python · SQL · C</dd></div>
+          <div class="reveal"><dt>Data</dt><dd>Pandas · NumPy · Matplotlib · Power BI · Data cleaning · EDA · Insight generation</dd></div>
+          <div class="reveal"><dt>Web</dt><dd>FastAPI · Flask · React · TypeScript · HTML · CSS</dd></div>
+          <div class="reveal"><dt>Cloud &amp; DevOps</dt><dd>AWS · Docker · Kubernetes · Git · GitHub Actions (CI/CD) · System monitoring</dd></div>
+        </dl>
+      </section>
+
+      <!-- Awards -->
+      <section id="awards" aria-labelledby="awards-h">
+        <h2 id="awards-h" class="section-label reveal">Awards &amp; Recognition</h2>
+        <ol class="rail">
+          <li class="entry reveal">
+            <p class="entry-date">2026</p>
+            <h3 class="entry-title">1st Place &amp; Outstanding Student <span class="at">· GCI World Program</span></h3>
+            <p>Won the GCI World 2026 Hackathon and was selected as one of 17 Outstanding Students from 25,000+ participants worldwide. The program is run by the Matsuo-Iwasawa Lab at The University of Tokyo.</p>
+            <a class="view" href="https://www.linkedin.com/in/sakibraihan91/overlay/Certifications/1835942154/treasury/?profileId=ACoAAEEVOMwBrNBHuO8FmRUtwC45YCzmdLOPZW4" target="_blank" rel="noopener">View certificate</a>
+          </li>
+          <li class="entry reveal">
+            <p class="entry-date">2026</p>
+            <h3 class="entry-title">Japan Study Tour <span class="at">· GCI World</span></h3>
+            <p>A fully funded tour with AI research activities at The University of Tokyo, plus visits to Toyota Tsusho, TOPPAN Holdings, Wanderlust Inc. and Japan's Ministry of Foreign Affairs.</p>
+            <a class="view" href="https://weblab.t.u-tokyo.ac.jp/en/news/gci-world-2026-april-outstanding-students-visit-japan/" target="_blank" rel="noopener">Read the news</a>
+          </li>
+          <li class="entry reveal">
+            <p class="entry-date">2026</p>
+            <h3 class="entry-title">Top 10 from BRAC University <span class="at">· Nippon AI Dojo</span></h3>
+            <p>Selected from about 650 applicants for an AI training program run by CHOWA GIKEN Corporation and subsidized by Japan's Ministry of Economy, Trade and Industry (METI).</p>
+          </li>
+          <li class="entry reveal">
+            <p class="entry-date">2026</p>
+            <h3 class="entry-title">Top 7 Finalist <span class="at">· HerWILL AI for Digital Safety Datathon</span></h3>
+            <p>One of seven finalists, with participants from more than 45 countries.</p>
+            <a class="view" href="https://www.herwill.org/verify?code=HWDATATHON2026-1" target="_blank" rel="noopener">Verify</a>
+          </li>
+          <li class="entry reveal">
+            <p class="entry-date">2025</p>
+            <h3 class="entry-title">14th of 49 <span class="at">· BAIC Datathon, BUBT</span></h3>
+            <p>Competed against teams from universities across Bangladesh.</p>
+            <a class="view" href="https://www.linkedin.com/in/sakibraihan91/overlay/Certifications/295079589/treasury/?profileId=ACoAAEEVOMwBrNBHuO8FmRUtwC45YCzmdLOPZW4" target="_blank" rel="noopener">View certificate</a>
+          </li>
+          <li class="entry reveal">
+            <p class="entry-date">2025</p>
+            <h3 class="entry-title">Finalist <span class="at">· Next Gen Ideathon</span></h3>
+            <p>Proposed an AI-driven solution to strengthen Bangladesh's tourism industry.</p>
+            <a class="view" href="https://www.linkedin.com/in/sakibraihan91/overlay/Certifications/295222623/treasury/?profileId=ACoAAEEVOMwBrNBHuO8FmRUtwC45YCzmdLOPZW4" target="_blank" rel="noopener">View certificate</a>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Education -->
+      <section id="education" aria-labelledby="education-h">
+        <h2 id="education-h" class="section-label reveal">Education</h2>
+        <ol class="rail">
+          <li class="entry reveal">
+            <p class="entry-date">Sep 2022 — Present</p>
+            <h3 class="entry-title">B.Sc. in Computer Science &amp; Engineering <span class="at">· BRAC University</span></h3>
+            <p>Dhaka, Bangladesh · CGPA 3.51 / 4.00</p>
+          </li>
+          <li class="entry reveal">
+            <p class="entry-date">2019 — 2022</p>
+            <h3 class="entry-title">Higher Secondary Certificate <span class="at">· Savar Cantonment Public School &amp; College</span></h3>
+            <p>Savar, Dhaka · GPA 4.58 / 5.00</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="contact" aria-labelledby="contact-h">
+        <h2 id="contact-h" class="reveal">Let's build something <em>together</em>.</h2>
+        <p class="reveal">Whether it's a role, a research collaboration or a question about one of my projects, I'd be glad to hear from you.</p>
+        <div class="contact-actions reveal">
+          <a class="btn btn-solid" href="mailto:sakibraihan9191@gmail.com" data-magnetic>Say hello</a>
+          <button class="btn copy-email" type="button" data-magnetic>
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>
+            Copy email
+          </button>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year">2026</span> Sakib Raihan · Built with plain HTML, CSS &amp; JS.</p>
+        <p class="footer-hint">Press <kbd class="kbd-mod">Ctrl</kbd> <kbd>K</kbd> to jump anywhere</p>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Command menu (Ctrl/⌘ K) -->
+  <dialog class="cmdk" aria-label="Command menu">
+    <div class="cmdk-search">
+      <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.2-4.2"/></svg>
+      <input type="text" placeholder="Search sections, links and actions…" aria-label="Search commands" role="combobox" aria-expanded="true" aria-controls="cmdk-list" aria-autocomplete="list" autocomplete="off" spellcheck="false">
+      <kbd>Esc</kbd>
+    </div>
+    <ul class="cmdk-list" id="cmdk-list" role="listbox" aria-label="Commands"></ul>
+    <p class="cmdk-empty" hidden>No results.</p>
+  </dialog>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
